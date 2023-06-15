@@ -6,6 +6,13 @@ import { Menu } from "@headlessui/react";
 // icons
 import { BsChevronDown } from "react-icons/bs";
 
+const list = [
+  { name: "1 Adult" },
+  { name: "2 Adults" },
+  { name: "3 Adults" },
+  { name: "4 Adults" },
+];
+
 const AdultsDropdown = () => {
   return <div>AdultsDropdown</div>;
 };
