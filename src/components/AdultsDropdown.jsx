@@ -14,7 +14,25 @@ const list = [
 ];
 
 const AdultsDropdown = () => {
-  return <div>AdultsDropdown</div>;
+  return (
+    <Menu as="div">
+      {/* btn */}
+      <Menu.Button>
+        adults
+        <BsChevronDown />
+      </Menu.Button>
+      {/* items */}
+      <Menu.Items as="ul">
+        {list.map((li, index) => {
+          return (
+            <Menu.Item as="li" key={index}>
+              {li.name}
+            </Menu.Item>
+          );
+        })}
+      </Menu.Items>
+    </Menu>
+  );
 };
 
 export default AdultsDropdown;
