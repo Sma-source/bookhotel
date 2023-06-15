@@ -21,6 +21,10 @@ const BookForm = () => {
         <div className="flex-1 border-r">
           <KidsDropdown />
         </div>
+        {/* btn */}
+        <button type="submit" className="btn btn-primary">
+          Check now
+        </button>
       </div>
     </form>
   );
