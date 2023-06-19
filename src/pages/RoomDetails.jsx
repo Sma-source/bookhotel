@@ -27,6 +27,10 @@ const RoomDetails = () => {
       <div className="bg-room bg-cover bg-center h-[560px] relative flex justify-center items-center">
         {/* overlay */}
         <div className="absolute w-full h-full bg-black/70" />
+        {/* title */}
+        <h1 className="text-6xl text-white z-20 font-primary text-center">
+          {name} Details
+        </h1>
       </div>
     </section>
   );
