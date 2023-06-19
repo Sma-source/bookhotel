@@ -21,7 +21,15 @@ const RoomDetails = () => {
   });
   // destructure room
   const { name, description, facilities, imageLg, price } = room;
-  return <div>RoomDetails</div>;
+  return (
+    <section className="bg-pink-200">
+      {/* banner */}
+      <div className="bg-room bg-cover bg-center h-[560px] relative flex justify-center items-center">
+        {/* overlay */}
+        <div className="absolute w-full h-full bg-black/70" />
+      </div>
+    </section>
+  );
 };
 
 export default RoomDetails;
