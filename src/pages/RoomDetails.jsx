@@ -12,6 +12,8 @@ import { RoomContext } from "../context/RoomContext";
 import { FaCheck } from "react-icons/fa";
 
 const RoomDetails = () => {
+  const { rooms } = useContext(RoomContext);
+  const { id } = useParams();
   return <div>RoomDetails</div>;
 };
 
