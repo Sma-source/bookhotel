@@ -10,6 +10,7 @@ import ChekOut from "../components/CheckOut";
 import { RoomContext } from "../context/RoomContext";
 // icons
 import { FaCheck } from "react-icons/fa";
+import ScrollToTop from "../components/ScrollToTop";
 
 const RoomDetails = () => {
   const { rooms } = useContext(RoomContext);
@@ -23,6 +24,7 @@ const RoomDetails = () => {
   const { name, description, facilities, imageLg, price } = room;
   return (
     <section className="">
+      <ScrollToTop />
       {/* banner */}
       <div className="bg-room bg-cover bg-center h-[560px] relative flex justify-center items-center">
         {/* overlay */}
