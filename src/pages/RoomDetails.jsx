@@ -19,7 +19,8 @@ const RoomDetails = () => {
   const room = rooms.find((room) => {
     return room.id === Number(id);
   });
-
+  // destructure room
+  const { name, description, facilities, imageLg, price } = room;
   return <div>RoomDetails</div>;
 };
 
