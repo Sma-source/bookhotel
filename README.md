@@ -2,4 +2,4 @@
 
 A React application made with Tailwindcss and headlessui
 
-![Thumbnail](https://raw.githubusercontent.com/Sma-source/bookhotel/main/client/public/screenshot.png)
+![Thumbnail](https://raw.githubusercontent.com/Sma-source/bookhotel/main/public/screenshot.png)
